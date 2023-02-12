@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@frontendone/header": ["packages/header/src/index.ts"]
+      "@frontendone/header": ["packages/header/src/index.ts"],
+      "@frontendone/redux": ["packages/redux/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

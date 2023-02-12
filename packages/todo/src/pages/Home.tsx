@@ -7,8 +7,11 @@ import {
 } from '@ionic/react';
 import './Home.css';
 import { Header } from '@frontendone/header';
+import { useGetAllPostsQuery } from '@frontendone/redux';
 
 const Home: React.FC = () => {
+  const { data } = useGetAllPostsQuery('');
+  console.log(data);
   return (
     <IonPage>
       <IonHeader>
